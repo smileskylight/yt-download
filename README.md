@@ -35,7 +35,7 @@ python ytdownload_1.4.py
 - #### 很重要 """"如果不需要cookies請刪除 cookies 資料夾內的文件"""" 
 - cookie 請存放於 cookies 資料夾內
 - cookies 的製作並非必要
-- 因 selenium 與 yt-dlp 所調用 cookies 格式不同，製作的 cookies 區分為cookies.txt (yt-dlp使用)與cookies1.txt(selenium使用),但不下載會員/私人影片不需要cookies.txt,不抓取私人收藏夾的飲片網址則不需要cookies1.txt,如cookies失效請重新抓取
+- 因 selenium 與 yt-dlp 所調用 cookies 格式不同，製作的 cookies 區分為cookies.txt (yt-dlp使用)與cookies1.txt(selenium使用),但不下載會員/私人影片不需要cookies.txt,不抓取私人收藏夾的影片網址則不需要cookies1.txt,如cookies失效請重新抓取
 ### cookies.txt
 - 使用chrome無痕分頁中使用擴充功能 Get cookies.txt LOCKLLY
 ```bash
