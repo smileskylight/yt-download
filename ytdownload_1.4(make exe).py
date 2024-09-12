@@ -141,7 +141,7 @@ def ytdlp():
         video_urls = file.readlines()
 
     # 檢查 cookies.txt 文件是否存在
-    cookiefile_path = "cookies.txt"  # 使用相對路徑
+    cookiefile_path = "cookies/cookies.txt"  # 使用相對路徑
     if not os.path.exists(cookiefile_path):
         print("沒有偵測到 cookies.txt，可能無法下載會員/付費影片")
 
