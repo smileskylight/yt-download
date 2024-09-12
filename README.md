@@ -22,11 +22,11 @@ git clone https://github.com/smileskylight/yt-download.git
 
 
 ### 使用
-- 本程式不提供python argparse 請直接在CMD中執行檔案
+- 本程式暫不提供python argparse 請直接在CMD中執行檔案
 ```bash
-python ytdownload_1.3.py
+python ytdownload_1.4.py
 ```
-- 如果無安裝 python 可直接執行ytdownload_1.3.exe
+- 如果無安裝 python 可直接執行ytdownload_1.4.exe
 ### 指令
 - yt:協助抓取播放列表的 URL,並下載影片
 - dlp:請手動自行把影片加入video_urls.txt,直接開始下載影片
@@ -49,7 +49,7 @@ chrome://extensions/
 2.開啟允許在無痕模式中執行
 - 選擇 Netscape 模式,再點選 Export As 儲存,更改名字為 cookies.txt,儲存於 cookies 資料夾內
 ### coockies1.txt
-開啟程式輸入 c ,並於40秒內登入google帳號,程式會自行抓取並生成檔案
+開啟程式輸入 c ,直接在cmd上輸入google帳號與密碼,之後請耐心等待,程式會自行轉跳張貼抓取並生成檔案
 
 #### 參考網址
 https://github.com/yt-dlp/yt-dlp  
@@ -58,4 +58,4 @@ https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenk
 https://googlechromelabs.github.io/chrome-for-testing/  
 https://www.ffmpeg.org/download.html  
 https://home.gamer.com.tw/creationDetail.php?sn=5969214  
-https://blog.maki0419.com/2022/01/youtube-download-ytdlp-ffmpeg.html  
+https://blog.maki0419.com/2022/01/youtube-download-ytdlp-ffmpeg.html 
