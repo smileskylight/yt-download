@@ -17,7 +17,7 @@ git clone https://github.com/smileskylight/yt-download.git
 - 請勿動任何資料夾內.exe檔案位置,移動可能造成程式執行失敗
 ### 套件
 - 請直接執行主程式,會自動偵測套件安裝情形,如缺少套件會詢問是否安裝補齊套件
-- chromedriver.exe 需與所安裝的chrome版本相同,本站提供chromedriver 128 版,如不同請自行到下列網址下載
+- chromedriver.exe 需與所安裝的chrome版本相同,本站提供chromedriver 130 版,如不同請自行到下列網址下載
 - https://googlechromelabs.github.io/chrome-for-testing/
 
 
