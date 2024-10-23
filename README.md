@@ -4,7 +4,7 @@
 ## 先決條件
 - Python >= 3.12
 - 依附套件 selenium, undetected_chromedriver
-- 調用檔 yt-dlp.exe, ffmpeg.exe, chromedriver.exe
+- 調用檔(皆已預載於supportexe) yt-dlp.exe, ffmpeg.exe, chromedriver.exe
 - chrome 擴充功能 Get cookies.txt LOCKLLY
 
 ## 教學
@@ -22,11 +22,11 @@ git clone https://github.com/smileskylight/yt-download.git
 
 
 ### 使用
+- #### 如果無安裝 python 可直接執行ytdownload_1.4.1.exe
 - 本程式暫不提供python argparse 請直接在CMD中執行檔案
 ```bash
-python ytdownload_1.4.py
+python ytdownload_1.4.1.py
 ```
-- 如果無安裝 python 可直接執行ytdownload_1.4.exe
 ### 指令
 - yt:協助抓取播放列表的 URL,並下載影片
 - dlp:請手動自行把影片加入video_urls.txt,直接開始下載影片
