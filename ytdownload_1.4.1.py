@@ -124,9 +124,9 @@ def downloadYoutubeURL():
     driver = webdriver.Chrome(service=Service(chrome_driver_path))
 
     # 讀取 cookies1.txt 文件
-    cookiefile_path = "cookies/cookies.txt"  # 使用相對路徑
-    if os.path.exists(cookiefile_path):
-        with open(cookiefile_path, 'r') as file:
+    cookie1file_path = "cookies/cookies1.txt"  # 使用相對路徑
+    if os.path.exists(cookie1file_path):
+        with open(cookie1file_path, 'r') as file:
             cookies = json.load(file)
 
         # 打開 YouTube 首頁並加載 cookies
